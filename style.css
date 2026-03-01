@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  display: flex;
+  background: #0f172a;
+  color: white;
+}
+
+.sidebar {
+  width: 220px;
+  background: #111827;
+  padding: 20px;
+  height: 100vh;
+}
+
+.sidebar button {
+  width: 100%;
+  padding: 10px;
+  background: #2563eb;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.main {
+  flex: 1;
+  padding: 30px;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #1f2937;
+}
+
+button {
+  padding: 6px 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.verificado {
+  background: #16a34a;
+  color: white;
+}
+
+.pendente {
+  background: #f59e0b;
+  color: white;
+}
+
+.abrir {
+  background: #2563eb;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+input {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+}
