@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard Verificação</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sidebar">
+  <h2>Admin</h2>
+  <button onclick="mostrarForm()">+ Nova Conta</button>
+</div>
+
+<div class="main">
+  <h1>Controle de Perfis</h1>
+
+  <div id="form" class="hidden">
+    <input type="text" id="usuario" placeholder="Nome do usuário (sem @)">
+    <button onclick="adicionar()">Salvar</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Usuário</th>
+        <th>Status</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody id="tabela"></tbody>
+  </table>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
